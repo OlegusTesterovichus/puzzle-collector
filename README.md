@@ -2,6 +2,7 @@
 
 [![code_smells](https://sonarcloud.io/api/project_badges/measure?project=com.github.shaburov%3Apuzzle-solver&metric=code_smells&blinking=true)](https://sonarcloud.io/project/issues?id=com.github.shaburov%3Apuzzle-solver&resolved=false&types=CODE_SMELL) [![vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=com.github.shaburov%3Apuzzle-solver&metric=vulnerabilities&blinking=true)](https://sonarcloud.io/component_measures?id=com.github.shaburov%3Apuzzle-solver&metric=vulnerabilities) [![bugs](https://sonarcloud.io/api/project_badges/measure?project=com.github.shaburov%3Apuzzle-solver&metric=bugs&blinking=true)](https://sonarcloud.io/project/issues?id=com.github.shaburov%3Apuzzle-solver&resolved=false&types=BUG) [![bugs](https://sonarcloud.io/api/project_badges/measure?project=com.github.shaburov%3Apuzzle-solver&metric=coverage&blinking=true)](https://sonarcloud.io/component_measures?id=com.github.shaburov%3Apuzzle-solver&metric=coverage)
 
+
 # Puzzle solver
 My first java project. With this project, I started my career in test automation.   
 Program for automatic collection of puzzles in the game sky2fly.   
