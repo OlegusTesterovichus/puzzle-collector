@@ -9,8 +9,6 @@ env:
   - secure: env.SONAR_TOKEN
 
 script:
-  - echo "env.SONAR_TOKEN"
-  - echo "${SONAR_TOKEN}"
   - mvn clean package sonar:sonar -Dsonar.login=${SONAR_TOKEN}
 
 cache:
