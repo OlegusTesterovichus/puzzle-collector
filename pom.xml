@@ -8,6 +8,12 @@
     <artifactId>PuzzleCollector</artifactId>
     <version>1.0</version>
 
+    <scm>
+        <connection>scm:git:git@github.com:shaburov/puzzle-collector.git</connection>
+        <developerConnection>scm:git:git@github.com:shaburov/puzzle-collector.git</developerConnection>
+        <url>https://github.com/shaburov/puzzle-collector</url>
+    </scm>
+
     <properties>
         <source.encoding>UTF-8</source.encoding>
         <jmh.verion>1.11.2</jmh.verion>
