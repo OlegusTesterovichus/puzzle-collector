@@ -4,14 +4,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>puzzle.collector</groupId>
-    <artifactId>PuzzleCollector</artifactId>
+    <groupId>com.github.shaburov</groupId>
+    <artifactId>puzzle-solver</artifactId>
+    <name>Puzzle solver</name>
     <version>1.0</version>
 
     <scm>
-        <connection>scm:git:git@github.com:shaburov/puzzle-collector.git</connection>
-        <developerConnection>scm:git:git@github.com:shaburov/puzzle-collector.git</developerConnection>
-        <url>https://github.com/shaburov/puzzle-collector</url>
+        <connection>scm:git:git@github.com:shaburov/puzzle-solver.git</connection>
+        <developerConnection>scm:git:git@github.com:shaburov/puzzle-solver.git</developerConnection>
+        <url>https://github.com/shaburov/puzzle-solver</url>
     </scm>
 
     <properties>
@@ -23,7 +24,7 @@
 
         <sonar.organization>shaburov-github</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        <sonar.projectKey>com.github.shaburov:puzzle-collector</sonar.projectKey>
+        <sonar.projectKey>com.github.shaburov:puzzle-solver</sonar.projectKey>
     </properties>
 
     <repositories>
