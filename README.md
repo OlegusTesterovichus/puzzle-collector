@@ -1,7 +1,8 @@
-[![Build Status](https://travis-ci.org/shaburov/puzzle-collector.svg?branch=master)](https://travis-ci.org/shaburov/puzzle-collector)
+[![Build Status](https://travis-ci.org/shaburov/puzzle-collector.svg?branch=master)](https://travis-ci.org/shaburov/puzzle-collector) [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=com.sonarqube.examples%3Ajava-maven-travis-project&metric=alert_status)](https://sonarcloud.io/dashboard?id=com.github.shaburov%3Apuzzle-collector)
+
+[![code_smells](https://sonarcloud.io/api/project_badges/measure?project=com.github.shaburov%3Apuzzle-collector&metric=code_smells&blinking=true)](https://sonarcloud.io/project/issues?id=com.github.shaburov%3Apuzzle-collector&resolved=false&types=CODE_SMELL) [![vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=com.github.shaburov%3Apuzzle-collector&metric=vulnerabilities&blinking=true)](https://sonarcloud.io/component_measures?id=com.github.shaburov%3Apuzzle-collector&metric=vulnerabilities) [![bugs](https://sonarcloud.io/api/project_badges/measure?project=com.github.shaburov%3Apuzzle-collector&metric=bugs&blinking=true)](https://sonarcloud.io/project/issues?id=com.github.shaburov%3Apuzzle-collector&resolved=false&types=BUG) [![bugs](https://sonarcloud.io/api/project_badges/measure?project=com.github.shaburov%3Apuzzle-collector&metric=coverage&blinking=true)](https://sonarcloud.io/component_measures?id=com.github.shaburov%3Apuzzle-collector&metric=coverage)
 
 # PuzzleCollector
-
-Программа для автоматического сбора пазлов в игре sky2fly.
-
-[Видео работы](https://www.youtube.com/embed/B4bnkRW2L-4)
+My first java project. With this project, I started my career in test automation.   
+Program for automatic collection of puzzles in the game sky2fly.   
+[Video how it works](https://www.youtube.com/embed/B4bnkRW2L-4)

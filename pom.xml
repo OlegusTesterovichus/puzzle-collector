@@ -15,8 +15,15 @@
     </scm>
 
     <properties>
+        <jdk.version>1.8</jdk.version>
+        <file.encoding>UTF-8</file.encoding>
         <source.encoding>UTF-8</source.encoding>
-        <jmh.verion>1.11.2</jmh.verion>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+        <sonar.organization>shaburov-github</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.projectKey>com.github.shaburov:puzzle-collector</sonar.projectKey>
     </properties>
 
     <repositories>
@@ -41,5 +48,27 @@
     </dependencies>
 
     <build>
+        <plugins>
+            <plugin>
+                <groupId>org.sonarsource.scanner.maven</groupId>
+                <artifactId>sonar-maven-plugin</artifactId>
+                <version>3.4.0.905</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.6.1</version>
+                <executions>
+                    <execution>
+                        <phase>compile</phase>
+                    </execution>
+                </executions>
+                <configuration>
+                    <source>${jdk.version}</source>
+                    <target>${jdk.version}</target>
+                    <encoding>${source.encoding}</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
     </build>
 </project>
