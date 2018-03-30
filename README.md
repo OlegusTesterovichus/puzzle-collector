@@ -5,4 +5,4 @@
 # PuzzleCollector
 My first java project. With this project, I started my career in test automation.   
 Program for automatic collection of puzzles in the game sky2fly.   
-[Video how it works](https://www.youtube.com/embed/B4bnkRW2L-4)
+[![Demo](https://j.gifs.com/N929LK.gif)](https://www.youtube.com/embed/B4bnkRW2L-4)
